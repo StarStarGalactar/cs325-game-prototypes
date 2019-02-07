@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Toboggan Town</title>
+	<script src="js/phaser.js"></script>
+	<script src="js/main.js"></script>
+
+
+<style>
+body
+{
+    color: #777;
+    font-family: "Avenir", Verdana, sans-serif;
+}
+#readme
+{
+    margin-top: 10px;
+}
+</style>
+</head>
+
+<body>
+<div id="game"></div>
+<div id="readme">
+<h2>Toboggan Town</h2>
+
+<ul>
+<li><strong>Originality:</strong>
+Toboggan Town is a never before seen setting ruled over by the ever spectacular and sadistic toboggan brothers. It is impossible for this game to be a retread of any existing game. 
+</li>
+
+<li><strong>Technical Merit:</strong>
+The physics code is functional if wonky. There's an actual game over state with the ability to restart the game. 
+</li>
+
+<li><strong>Prototype Postmortem:</strong>
+I've learned the basics of Phaser, the resources available to users of Phaser, and some basics of using Github. It was much easier than I was expecting to create a webserver. Implementing the UI was the most difficult part for me.   
+</li>
+
+<li><strong>Prototype Assets:</strong>
+<ul>
+<li>Player character sprite was made by OddPotatoGift. Can be found <a href="https://oddpotatogift.itch.io/16x16-fantasy-tileset">here</a>.</li>
+<li>Toboggan Brothers and the Toboggan King sprites were self-made</li>
+<li>Background is a stock photo from Pexels.com. You can find the image <a href="https://www.pexels.com/photo/grayscale-photo-of-explosion-on-the-beach-73909/"></a>here</a>.</li>
+</ul>
+</li>
+
+<li><strong>Prototype Closest Other Game:</strong>
+The code for this example is a mashup from two Phaser examples. 
+<ul>
+<li> Bounce Knock which can be found <a href="http://phaser.io/examples/v2/arcade-physics/bounce-knock#gv">here</a>. Most of the physics code is taken from this example as well as the basic object initiations.</li>
+<li> Invaders which can be found <a href="http://phaser.io/examples/v2/games/invaders">here</a>. I adapted the UI and some collision code from this example. </li> 
+</ul>
+</li>
+
+<li><strong>High Concept:</strong>
+Have the kings bump into each other fifty times whilst avoiding the horrific toboggan brothers. 
+</li>
+
+<li><strong>Theme:</strong>
+The game is a classic post-apocalyptic story, though confined in a small location and set in feudal times where toboggans are very popular. 
+</li>
+
+<li><strong>Mandated Variety:</strong>
+The game uses the arrow keys for movement. The style of game is a bullet dodger. There is no randomness in this prototype. 
+</li>
+
+<li><strong>Prototype Goal:</strong>
+This game tests basic movement, score tracking, and object collision. 
+</li>
+
+<li><strong>Player Experience Goals:</strong>
+It is my hope that players experience the crushing oppression that is the Toboggan Brother's regime. 
+</li>
+
+<li><strong>Gameplay:</strong>
+The player can move King PortlyMan in the cardinal directions with the arrow keys. Bumping into King Toboggan reduces the required number of rendezvous by one. Bumping into the Toboggan Brothers is an immediate death and game over. The player wins if they can bump into King Toboggan 50 times. Players can immediately restart the game when they win or lose by clicking within the game window. 
+</li>
+
+<li><strong>Strategies:</strong>
+The trajectory, speed, and position of the objects are the same each time so a player could workshop an ideal run. The code dictating the physics is rather rough so it's possible to push both kings against an edge for rapid bumping. 
+</li>
+
+<li><strong>Story/Setting/Premise:</strong>
+After his kingdom was decimated by a nuclear attack, King Portlyman goes to Toboggan Town to request aid from his old friend Toboggan King. However, the Toboggan Brothers have already overthrown King Toboggan in a military coup. Now, King Portlyman must meet with King Toboggan multiple times to plan their escape from Toboggan Town while avoiding the gaze of the evil Toboggan Brothers. Will they succeed or meet a knitted hat demise?   
+</li>
+
+<li><strong>Target Audience:</strong>
+This game targets fans of toboggans. 
+</li>
+
+<li><strong>Play Time:</strong>
+Depending on the player's skill level, play time can range from a few seconds to forever. It's a score-based game and the only endgame is to achieve a highscore. 
+</li>
+
+</ul>
+</div>
+</body>
+</html>
