@@ -14,8 +14,8 @@ BasicGame.Preloader.prototype = {
 
 		//	These are the assets we loaded in Boot.js
 		//	A nice sparkly background and a loading progress bar
-		this.game.load.image('preloaderBar', 'assets/preloader_Bar.png');
-		this.preloadBar = this.add.sprite(424, 225, 'preloaderBar');
+		//this.game.load.image('preloaderBar', 'assets/preloader_Bar.png');
+		//this.preloadBar = this.add.sprite(424, 225, 'preloaderBar');
 		this.game.load.image('bullet', 'assets/bullet.png');
 		this.game.load.image('rocket', 'assets/rocket.png');
 		this.game.load.image('smoke', 'assets/smoke.png');
@@ -46,7 +46,7 @@ BasicGame.Preloader.prototype = {
 	create: function () {
 
 		//	Once the load has finished we disable the crop because we're going to sit in the update loop for a short while as the music decodes
-		this.preloadBar.cropEnabled = false;
+		//this.preloadBar.cropEnabled = false;
 
 	},
 
