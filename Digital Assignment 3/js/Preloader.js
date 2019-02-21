@@ -22,7 +22,7 @@ BasicGame.Preloader.prototype = {
 		this.game.load.image('backgroundsky', 'assets/background.png');
 		this.game.load.image('player', 'assets/player.png');
 		this.game.load.spritesheet('explosion', 'assets/explosion.png', 128, 128);
-		this.game.load.image('loader', 'assets/preloader_background.jpg');
+		
 
 		//	This sets the preloadBar sprite as a loader sprite.
 		//	What that does is automatically crop the sprite from 0 to full-width
