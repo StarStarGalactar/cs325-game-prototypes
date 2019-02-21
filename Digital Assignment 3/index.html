@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>I'm here to kill demons and chew gum</title>
+	<script src="js/phaser.js"></script>
+	<!-- Boot.js must come first since it creates the BasicGame object
+	that stores all the states. -->
+	<script src="js/phaser-state-transition.umd.js"></script>
+	<script src="js/Boot.js"></script>
+	<script src="js/Preloader.js"></script>
+	<script src="js/MainMenu.js"></script>
+	<script src="js/Game.js"></script>
+	<script src="js/Over.js"></script>
+	<!-- main.js must come last since it references the other ones. -->
+	<script src="js/main.js"></script> 
+
+<style>
+body
+{
+    color: #777;
+    font-family: "Avenir", Verdana, sans-serif;
+}
+#readme
+{
+    margin-top: 10px;
+}
+</style>
+
+</head>
+<body>
+<div id="game"></div>
+<div id="readme">
+<h2>No Demons, Please</h2>
+
+<ul>
+<li><strong>Originality:</strong>
+What is original about your game? The game has a subtle, religious message for both the faithful and the secular masses. 
+</li>
+
+<li><strong>Technical Merit:</strong>
+What is interesting about your game technology? The game has three states: menu, game and a game over screen. The game uses a cursor aiming system and homing enemies. I was also able to implement a camera shake on death. 
+</li>
+
+<li><strong>Prototype Postmortem:</strong>
+What did you learn from this prototype?
+What was the easiest or hardest part of making it?
+The easiest part was loading in all the assets. The hardest part was figuring out how to adjust the syntax to accomodate multiple states. 
+</li>
+
+<li><strong>Prototype Assets:</strong>
+Did you make your prototype assets from scratch? Did you borrow them? Cite your sources here.
+<ul>
+<li>Background by Mobile Game Graphics. Can be found here: https://opengameart.org/content/pixelantasy.</li>
+<li>Music by Soundeyet. Can be found here: https://freemusicarchive.org/music/Soundeyet/On_A_Steady_Diet_of_Hash_Bread__Salt</li>
+<li>Sprites are from Kid Icarus and Dungeons of Dreadmore. Can be found here: https://www.vg-resource.com/</li>
+</ul>
+</li>
+
+<li><strong>Prototype Closest Other Game:</strong>
+Which other game most closely resembles your game? If you are borrowing code from a Phaser Example, you must say so here. If you borrow code from elsewhere, you must say so here.
+<ul>
+<li> The following phaser examples were used:camera shake, tinted text, and forEach. The flying and shooting code, and the smoke/explosion effects were adapted from https://gamemechanicexplorer.com. I also used the gamestate template as a starting point.</li>
+</ul>
+</li>
+
+<li><strong>High Concept:</strong>
+A one-sentence summary of your game. Shoot down devils before you're taken down and fufill your angelic duty. 
+</li>
+
+<li><strong>Theme:</strong>
+State which of the Storymatic themes you used. The fight for good and evil is a tale as old as time. 
+</li>
+
+<li><strong>Mandated Variety:</strong>
+State which input, randomness, genre, and play style you used in this prototype. The aiming and shooting are controlled with the mouse cursor. The devils are generated from the bottom of screen and can spawn at any point along the bottom. The game can be described as an arcade shooter like Missile Command. 
+</li>
+
+<li><strong>Prototype Goal:</strong>
+What game mechanic is this prototype evaluating? Cursor aiming and moving, homing, projectile mechanics. 
+</li>
+
+<li><strong>Player Experience Goals:</strong>
+What experience do you want players to have when playing your game? I want players to panic and repent for their past sins. 
+</li>
+
+<li><strong>Gameplay:</strong>
+A paragraph describing the actions the player can perform, the system dynamics, and the core mechanic. Include a concise explanation of the prototype’s inputs and their expected effects (how to play). You can also describe game play that is not in the prototype. You may include mock-up images for parts of the game not in the prototype.
+</li>
+
+<li><strong>Strategies:</strong>
+What player strategies do you expect will be effective at playing this game? Click fast or die. 
+</li>
+
+<li><strong>Story/Setting/Premise:</strong>
+A paragraph about the world your game is set in and who the characters are. What makes the game world and its occupants unique and interesting? Do the tokens represent something? If the game has a backstory, mention it here. If the game is abstract, then say so.
+How will the dramatic tension interact with the gameplay tension? You are an angel tasked with eradicating the demonic prescence in the sub-Saharan desert. However, your superiors have underestimated their forces. You will fall. But not without a bloody finale. 
+</li>
+
+<li><strong>Target Audience:</strong>
+A single sentence that describes the demographic you're trying to reach. People who can aim with a mouse. 
+</li>
+
+<li><strong>Play Time:</strong>
+How long does your game take to play? I expect a good player to last anywhere between 30 seconds to several minutes. 
+</li>
+
+</ul>
+</div>
+</body>
+</html>
